@@ -106,3 +106,34 @@ nav ul {
 .hero h3 {
   padding: 5rem;
 }
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(25, 25, 25, 0.3), transparent),
+    url("./img/new-york-page.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.location-head {
+  width: 90%;
+  margin: auto;
+}
+
+#locations h2 {
+  text-decoration: underline;
+  padding: 1rem 0rem;
+}
+
+#locations h3 {
+  padding: 4rem 0rem;
+  background: linear-gradient(#131c27, #663b34);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
