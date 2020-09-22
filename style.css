@@ -101,6 +101,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem;
 }
 
 .hero h3 {
@@ -136,4 +137,35 @@ nav ul {
   background: linear-gradient(#131c27, #663b34);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.benefits-head {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #343c44;
+  color: white;
+  padding: 3rem;
+}
+
+.benefits h3 {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 55%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding-bottom: 2rem;
+    flex: 2 1 60rem;
+  }
 }
