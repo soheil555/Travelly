@@ -179,7 +179,7 @@ nav ul {
   padding: 3rem;
 }
 
-.benefits h3 {
+#benefits h3 {
   padding: 1rem;
 }
 
@@ -192,6 +192,7 @@ nav ul {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  padding-bottom: 4rem;
 }
 
 .card-icon {
@@ -218,6 +219,71 @@ nav ul {
 h4 {
   margin: 2rem;
   line-height: 1.8;
+}
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(25, 25, 25, 0.3), transparent),
+    url("/img/contact-mountain.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-section {
+  border-radius: 2rem;
+  width: 60%;
+  background: rgba(19, 28, 39, 0.8);
+  color: white;
+}
+
+.header-form {
+  padding-top: 2rem;
+}
+
+.form-section button {
+  width: 100%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-top: 6rem;
+}
+
+.form-section input {
+  margin: 3rem;
+  padding: 1rem;
+}
+
+.footer {
+  background: #27394e;
+}
+
+.footer-wrapper {
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+}
+
+.footer h3 {
+  flex: 1 1 40rem;
+  font-weight: bold;
+}
+
+.footer ul {
+  flex: 1 1 40rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 950px) {
@@ -255,5 +321,13 @@ h4 {
 
   .cloud-2 {
     z-index: -2;
+  }
+
+  .form-section {
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
   }
 }
