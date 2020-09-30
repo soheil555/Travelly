@@ -55,6 +55,11 @@ button:hover {
   background: #27394e;
 }
 
+button:focus {
+  background: #343c44;
+  outline: solid;
+}
+
 .main-head {
   background: #131c27;
   color: white;
